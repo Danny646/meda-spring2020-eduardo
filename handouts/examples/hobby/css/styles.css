@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Fauna+One|Montserrat|Tillana');
+
+body {
+    background: url("../images/pexels-photo-258447.jpeg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #2c3e50;
+}
+
+p {
+    font-family: "Montserrat";
+    font-size: 24px;
+    text-align: justify;
+    margin: 50px 0;
+    line-height: 1.7;
+}
+
+#first {
+    margin-top: 0;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Fauna One";
+    font-weight: 800px;
+}
+
+#container {
+    background-color: rgba(0,0,0,.5);
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#header, #article, #footer {
+    width: 700px;
+    background-color: #ecf0f1;
+    border: solid 1px #bdc3c7;
+    border-radius: 8px;
+    margin: 0 auto 20px auto;
+    padding: 30px;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+.emphasis {
+    font-style: italic;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  
+}
+
+blockquote:before {
+  color: #ccc;
+  content: "\201C";
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+    display: inline;
+    font-style: italic;
+    font-family: "Tillana";
+    font-size: 32px;
+}
+
+.author {
+    font-size: 24px;
+    margin: 0 10px 0 0;
+    display: block;
+    text-align: right;
+    font-style: normal;
+    font-family: "Montserrat";
+}
+
+#footer p {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+	width: 100%;
+}
+
+ul {
+	list-style-type: square;
+	padding-left: 15px;
+}
