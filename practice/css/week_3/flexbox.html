@@ -18,10 +18,20 @@
             margin: 20px;
         }
 
+        #first-item {
+            order: 3;
+        }
+
+        #third-item {
+            order: 1;
+        }
+
         #special-item {
             flex-shrink: 2;
+            order: 2;
         }
         #last-item {
+            order: 4;
         }
     </style>
 </head>
@@ -30,7 +40,7 @@
 
     <div id="my-flexbox">
 
-        <div class="flexbox-items">
+        <div id="first-item" class="flexbox-items">
             <p>Hello there, how are you! 1</p>
         </div>
 
@@ -38,7 +48,7 @@
             <p>Hello there, how are you! 2</p>
         </div>
 
-        <div class="flexbox-items">
+        <div id="third-item" class="flexbox-items">
             <p>Hello there, how are you! 3</p>
         </div>
 
