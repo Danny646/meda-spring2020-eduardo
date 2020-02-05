@@ -1,0 +1,12 @@
+body {
+    background-color: pink;
+}
+
+div#flex-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+figure, figure  > img {
+    width: 200px;
+}
