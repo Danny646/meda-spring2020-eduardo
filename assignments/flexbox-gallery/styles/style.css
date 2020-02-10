@@ -5,7 +5,10 @@ body {
 div#flex-gallery {
     display: flex;
     flex-wrap: wrap;
+    flex-flow: column wrap;
     align-items: flex-start;
+    height: 820px;
+
 }
 
 #flex-gallery > figure {

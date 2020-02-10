@@ -1,0 +1,31 @@
+body {
+    background-color: red;
+}
+
+header, main, footer {
+    width: 900px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 50px;
+    font-size: 36px;
+}
+
+header, main {
+    border-bottom: black 5px solid;
+}
+
+header h1 {
+    font-family: "Zapfino";
+    font-size: 48px;
+    text-align: center;
+    color: red;
+    line-height: 84px;
+}
+
+#logo {
+    float: left;
+}
+
+#title-container {
+    margin-left: 200px;
+}
