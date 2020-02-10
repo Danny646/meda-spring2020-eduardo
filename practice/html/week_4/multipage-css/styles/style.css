@@ -10,6 +10,11 @@ header, main, footer {
     font-size: 36px;
 }
 
+header {
+    padding-right: 0;
+    width: 950px;
+}
+
 header, main {
     border-bottom: black 5px solid;
 }
@@ -20,6 +25,7 @@ header h1 {
     text-align: center;
     color: red;
     line-height: 84px;
+    
 }
 
 #logo {
@@ -28,4 +34,43 @@ header h1 {
 
 #title-container {
     margin-left: 200px;
+}
+
+nav ul {
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 12px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-family: "Arial";
+}
+
+nav ul li:hover {
+    background-color: yellow;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:link {
+
+}
+
+nav ul li a:active {
+
+}
+
+nav ul li a:hover {
+    color: green;
+    background-color: yellow;
+}
+
+nav ul li a:visited {
+
 }
