@@ -92,7 +92,8 @@ footer {
 }
 
 #social-links ul {
-    text-align: right;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 #social-links ul li {
@@ -108,22 +109,48 @@ footer {
 }
 
 #social-links ul li a {
-    display: inline-block;
+    display: block;
     padding: 8px;
 }
-
+/* 
 #social-links ul li:hover {
     color: white;
     background-color: red;
-}
+} */
 
 #social-links ul li a:link {
     text-decoration: none;
     color: red;
 }
 
-#social-links ul li a:hover {
- color: white;
+#social-links ul li a:visited {
+    color: red;
 }
 
+#social-links ul li a:hover {
+ color: white;
+ background-color: red;
+}
+
+
+
 /* FOOTER STYLES END */
+
+/* MAIN DEFAULT STYLES START */
+
+main {
+    font-family: "Arial";
+    color: red;
+}
+
+main h1 {
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main p {
+    font-size: 24px;
+}
+
+/* MAIN DEFAULT STYLES END */
