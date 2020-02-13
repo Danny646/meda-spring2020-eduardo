@@ -1,5 +1,5 @@
 body {
-    background-color: red;
+    background-color: turquoise;
 }
 
 header, main, footer {
@@ -18,14 +18,14 @@ header {
 }
 
 header, main {
-    border-bottom: red 5px solid;
+    border-bottom: turquoise 5px solid;
 }
 
 header h1 {
     font-family: "Zapfino";
     font-size: 48px;
     text-align: center;
-    color: red;
+    color: turquoise;
     line-height: 84px;
 }
 
@@ -43,7 +43,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    background-color: red;
+    background-color: turquoise;
     color: white;
     padding: 12px;
     margin-top: 25px;
@@ -80,7 +80,7 @@ nav ul li a:active {
 /* FOOTER STYLES START */
 
 footer {
-    color: red;
+    color: turquoise;
     font-family: "Arial";
     line-height: 48px;
 }
@@ -98,7 +98,7 @@ footer {
 
 #social-links ul li {
     display: inline-block;
-    border: solid 1px red;
+    border: solid 1px turquoise;
     border-radius: 10px;
     padding: 0;
 }
@@ -115,21 +115,21 @@ footer {
 /* 
 #social-links ul li:hover {
     color: white;
-    background-color: red;
+    background-color: turquoise;
 } */
 
 #social-links ul li a:link {
     text-decoration: none;
-    color: red;
+    color: turquoise;
 }
 
 #social-links ul li a:visited {
-    color: red;
+    color: turquoise;
 }
 
 #social-links ul li a:hover {
  color: white;
- background-color: red;
+ background-color: turquoise;
 }
 
 
@@ -140,7 +140,7 @@ footer {
 
 main {
     font-family: "Arial";
-    color: red;
+    color: turquoise;
 }
 
 main h1 {
@@ -188,20 +188,64 @@ main p {
 
 /* CONTACT STYLE START */
 
+#contact > hr {
+    border: dotted 2px turquoise;
+}
+
 #contact-flexbox {
     display: flex;
-    height: 300px;
 }
 
 #contact-flexbox div:first-child {
     flex-grow: 3;
-    background-color: grey;
-    
 }
 
 #contact-flexbox div:last-child {
     flex-grow: 1;
-    background-color: silver;
+}
+
+#contact-form {
+    width: 400px;
+    margin: 20px;
+}
+
+#contact-form label {
+    font-size: 24px;
+}
+
+#contact-form input {
+    border: dashed 5px turquoise;
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: turquoise;
+    padding-left: 11px;
+}
+
+#contact-form .form-buttons {
+    margin: 20px;
+    color: turquoise;
+    font-size: 18px;
+    width: 360px;
+}
+
+#contact-form .form-buttons:hover {
+    border: solid turquoise 5px;
+    cursor: pointer;
+}
+
+#contact-form textarea {
+    border: dashed 5px turquoise;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 11px;
+    font-size: 18px;
+    color: turquoise;
 }
 
 
