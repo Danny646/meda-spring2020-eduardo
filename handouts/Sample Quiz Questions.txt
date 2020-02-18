@@ -1,0 +1,19 @@
+In one sentence, explain what Git is?
+
+Write these commands in order: git commit, git push, git add.
+
+When you go to a website, what is the filename of the web page that normally loads by default?
+
+The syntax of CSS is easy, but what makes CSS difficult?
+
+How many children should the html tag have?
+
+What is a difference between a text editor and a code editor?
+
+Is HTML a programming language?
+
+Can you use the CSS language on its own? Explain.
+
+When you create a div, what do you need to make it visible on the webpage?
+
+What is the HTML hyperlink element?
