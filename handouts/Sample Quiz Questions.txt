@@ -1,4 +1,4 @@
-In one sentence, explain what Git is?
+In one sentence, explain what Git is? 
 
 Write these commands in order: git commit, git push, git add.
 
@@ -6,7 +6,7 @@ When you go to a website, what is the filename of the web page that normally loa
 
 The syntax of CSS is easy, but what makes CSS difficult?
 
-How many children should the html tag have?
+How many direct children should the html tag have?
 
 What is a difference between a text editor and a code editor?
 
