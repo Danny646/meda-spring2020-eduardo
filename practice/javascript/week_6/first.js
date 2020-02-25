@@ -1,4 +1,4 @@
-// The console.log function, datatypes, concatination, and math operators.
+// The console.log function, datatypes, concatenation, and math operators.
 
 console.log(10 * 10);
 
