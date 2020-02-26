@@ -41,3 +41,44 @@ selector {
 
 
 nameOfFunction();
+
+
+
+
+
+
+
+
+
+
+
+function dataTypePrinter() {
+    console.log(102903);
+    console.log("Hello World!");
+    console.log(false);   
+}
+
+
+
+dataTypePrinter();
+
+
+
+
+
+// Arguments and Parameters
+
+// "hello" is the argument
+console.log("hello", 100, true);
+
+// text is the parameter (variable) that will accept any data that is given to this function.
+function takeDataIn(text1, text2) {
+
+    console.log(text1);
+    console.log(text2);
+
+}
+
+
+takeDataIn("How are you doing?");
+takeDataIn("Goodbye!");
