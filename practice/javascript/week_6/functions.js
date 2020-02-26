@@ -74,11 +74,27 @@ console.log("hello", 100, true);
 // text is the parameter (variable) that will accept any data that is given to this function.
 function takeDataIn(text1, text2) {
 
-    console.log(text1);
-    console.log(text2);
+    console.log(text1, text2);
 
 }
 
 
-takeDataIn("How are you doing?");
-takeDataIn("Goodbye!");
+takeDataIn("How are you doing?", "Jesser");
+takeDataIn("Goodbye!", 1000);
+
+
+
+
+
+
+
+
+function adder(number2, number1) {
+
+    var sum = number1 + number2;
+
+    console.log( "The sum of" + number1 + " and " + number2 + " is " + sum );
+
+}
+
+adder(4000, 19);
