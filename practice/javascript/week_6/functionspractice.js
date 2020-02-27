@@ -17,6 +17,7 @@ function sentenceBuilder(person, place, action, item) {
     var completeSentence = person + firstPart + place + secondPart + action + thirdPart + item + fourthPart;
 
     console.log(completeSentence);
+
 }
 
 sentenceBuilder("Osiah", "Happy Donut", "fought with the store owner", "the fists");
@@ -42,10 +43,17 @@ var results = getNumber() / 50;
 console.log( results );
 
 
+function getName() {
+
+    var firstName = "Eduardo";
+
+
+    return firstName;
+}
 
 
 
-
+console.log( getName() + " is a person.");
 
 
 
