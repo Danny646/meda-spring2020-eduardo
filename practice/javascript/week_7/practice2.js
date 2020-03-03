@@ -17,23 +17,15 @@ for (var i = 0; i < employeeSalaries.length; i++) {
 
         console.log("Old salary: " + salary);
 
-        // If it is below, add a 5% bonus to it.
-        salary = salary + (salary * .05);
-        console.log("New Salary: " + salary);
-
         // And update the array with this new value.
-        employeeSalaries[i] = salary;
+        employeeSalaries[i] = salaryBonus(salary, .05);
 
     } else {
     
         console.log("Old salary: " + salary);
 
-        //Otherwise add a 2.5% bonus to it.
-        salary = salary + (salary * .025);
-        console.log("New Salary: " + salary);
-
         // And update the array with this new value.
-        employeeSalaries[i] = salary;
+        employeeSalaries[i] = salaryBonus(salary, .025);
 
     }
 
@@ -47,7 +39,7 @@ console.log(employeeSalaries);
 
 
 function salaryBonus(salary, bonus) {
-
+    
     var actualBonus = salary * bonus;
 
     var newSalary = salary + actualBonus;
@@ -56,10 +48,8 @@ function salaryBonus(salary, bonus) {
 }
 
 
-
-
-
-
 var test = salaryBonus(10000, .10);
+var test2 = salaryBonus(20000, .05);
 
 console.log(test);
+console.log(test2);
