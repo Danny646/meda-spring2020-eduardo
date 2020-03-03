@@ -46,7 +46,20 @@ console.log(employeeSalaries);
 
 
 
+function salaryBonus(salary, bonus) {
+
+    var actualBonus = salary * bonus;
+
+    var newSalary = salary + actualBonus;
+
+    return newSalary;
+}
 
 
 
 
+
+
+var test = salaryBonus(10000, .10);
+
+console.log(test);
