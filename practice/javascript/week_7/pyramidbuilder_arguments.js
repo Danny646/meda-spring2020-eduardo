@@ -41,8 +41,12 @@ var arguments = process.argv;
 console.log(arguments);
 
 var height = arguments[2];
+var loops = parseInt( arguments[3] );
 
 height = parseInt(height);
 console.log(height);
 
-pyramidBuilder(height);
+
+for (var i = 0; i < loops; i++) {
+    pyramidBuilder(height);
+}
